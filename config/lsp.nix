@@ -4,7 +4,7 @@
             lsp = {
                   enable = true;
                   servers = {
-                        ts-ls.enable = true;
+                        ts_ls.enable = true;
                         lua_ls.enable = true;
                         clangd.enable = true;
                         c3_lsp.enable = true;
