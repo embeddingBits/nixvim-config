@@ -22,7 +22,7 @@
     scrolloff = 6;
   };
 
-  colorschemes.gruvbox-material-nvim = {
+  colorschemes.gruvbox-material = {
     autoLoad = true;
     enable = true;
     settings = {
@@ -32,7 +32,14 @@
   plugins.lualine.enable = true;
   plugins.autoclose.enable = true;
   plugins.comfy-line-numbers.enable = true;
-  plugins.cursorline.enable = true;
+  plugins.cursorline = {
+    enable = true;
+    settings = {
+      cursorline = {
+        timeout = 0;
+      };
+    };
+  };
   plugins.friendly-snippets.enable = true;
   plugins.indent-blankline.enable = true;
   plugins.toggleterm.enable = true;
