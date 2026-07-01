@@ -22,7 +22,7 @@
     scrolloff = 6;
   };
 
-  colorschemes.gruvbox-material = {
+  colorschemes.gruvbox = {
     autoLoad = true;
     enable = true;
     settings = {
